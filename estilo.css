@@ -1,0 +1,142 @@
+body{
+background-color: rgb(218, 218, 218); 
+font-family: roboto;
+}
+#contenedor{
+    width: 850px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    text-align: center;
+    color: rgb(88, 155, 249);
+    margin: 10px;
+    padding-top: 30px;
+}
+
+    /*Formulario*/
+
+
+.doble{
+    display: flex;
+}
+.doble .entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    margin: 10px;
+}
+.entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 830px;
+    margin: 10px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+input{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(244, 242, 242, 0.75);
+    height: 25px;
+}
+select{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(244, 242, 242, 0.75);
+    height: 25px;
+}
+textarea{
+    font-family: roboto;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(244, 242, 242, 0.75);
+    height: 100px;
+}
+button{
+    margin: 10px;
+}
+.limpiar{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(109, 109, 109);
+    padding: 10px;
+    width: 80px;
+    color: white;
+
+}
+.limpiar:hover{
+
+    background-color: rgba(109, 109, 109, 0.7); 
+
+}
+.enviar{
+
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(88, 155, 249);
+    padding: 10px;
+    width: 80px;
+    color: white;
+}
+.enviar:hover{
+
+    background-color: rgb(88, 155, 249, 0.7);
+
+}
+
+
+    /*Tabla*/
+
+
+.tabla{
+    padding-bottom: 25px;
+}
+table{
+    border-collapse: collapse; 
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+caption{
+    text-align: initial;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+th{
+    color: white;
+    background-color: rgb(88, 155, 249);
+
+}
+.leftcell{
+    border-top-left-radius: 10px;
+}
+.rightcell{
+    border-top-right-radius: 10px;
+    
+}
+th, td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+tr:hover td{
+    background-color: rgba(232, 232, 232, 0.676);
+}
+.coment{
+    text-align: left;
+}
